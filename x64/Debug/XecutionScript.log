@@ -1,0 +1,16 @@
+﻿  Functions.cpp
+  Interpreter.cpp
+  main.cpp
+  Parser.cpp
+  ParserFunction.cpp
+  ParsingScript.cpp
+  ScriptHelper.cpp
+E:\Projects\VisualStudio\PUC_PROJECT_SS21_XecutionScript\ScriptHelper.cpp(604,70): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+  Tokens.cpp
+  Variable.cpp
+  Generating Code...
+  XecutionScript.vcxproj -> E:\Projects\VisualStudio\PUC_PROJECT_SS21_XecutionScript\x64\Debug\XecutionScript.exe

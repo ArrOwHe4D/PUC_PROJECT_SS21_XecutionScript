@@ -1,0 +1,65 @@
+demoInteger = 15;
+demoString = "Hello ";
+demoFloat = 5.82;
+
+print(demoInteger);
+
+demoInteger += 5;
+
+print(demoInteger);
+print(demoFloat);
+
+for (i = 0; i < 20; i++)
+{
+    if (i == 0)
+    {
+        continue;        
+    }
+    eif (i == 1)
+    {
+        print("FOR LOOP ", "Landata demo ", i, "st iteration");   
+    }
+    eif (i == 2)
+    {
+        print("FOR LOOP ", "Landata demo ", i, "nd iteration");   
+    }
+    eif (i == 3)
+    {
+        print("FOR LOOP ", "Landata demo ", i, "rd iteration");   
+    }
+    else 
+    {
+        print("FOR LOOP ", "Landata demo ", i, "th iteration"); 
+    }  
+}
+
+print(20 + 10 * 5);
+
+demoBool = 1;
+
+if (demoBool)
+{
+    print("OK");    
+}
+eif (!demoBool)
+{
+    print("NOT OK");    
+}
+else
+{
+    print("NOTHING OF BOTH");    
+}
+
+a = 10;
+
+while (a > 0)
+{
+    print("IN WHILE");  
+    a--;  
+}
+
+print("OUT OF WHILE LOOP");
+
+b = "from";
+
+print(demoString, "World ", b, " XecutionScript");
